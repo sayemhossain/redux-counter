@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 
-export default function Counter() {
+function Counter() {
   const count = useSelector((state) => state.value);
 
   return (
@@ -23,3 +23,4 @@ export default function Counter() {
     </div>
   );
 }
+export default Counter;
