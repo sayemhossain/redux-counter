@@ -1,5 +1,6 @@
 import { INCREMENT, DECREMENT } from "./actionTypes";
 
+//this action for increment the value
 export const increment = (value) => {
   return {
     type: INCREMENT,
