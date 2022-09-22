@@ -23,7 +23,7 @@ function Counter() {
         </button>
         <button
           className="bg-red-400 text-white px-3 py-2 rounded shadow"
-          onClick={() => decrementHandler(2)}
+          onClick={() => decrementHandler(10)}
         >
           Decrement
         </button>
