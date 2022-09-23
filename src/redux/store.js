@@ -1,8 +1,9 @@
-import { createStore } from "redux";
+import { applyMiddleware, createStore } from "redux";
 import counterReducer from "./counter/counterReducer";
 
 //create our first middleware
+const myLogger = () => {};
 
-const store = createStore(counterReducer);
+const store = createStore(counterReducer, applyMiddleware(myLogger));
 
 export default store;
