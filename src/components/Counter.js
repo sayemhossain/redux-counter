@@ -19,7 +19,7 @@ function Counter() {
           className="bg-indigo-400 text-white px-3 py-2 rounded shadow"
           onClick={() => incrementHandler(5)}
         >
-          Incremen
+          Increment
         </button>
         <button
           className="bg-red-400 text-white px-3 py-2 rounded shadow"
